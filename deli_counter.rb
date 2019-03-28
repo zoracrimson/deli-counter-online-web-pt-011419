@@ -19,7 +19,11 @@ end
 
 def now_serving(katz_deli)
   counter = 0 
-  puts ""
+  if katz_deli.size > 0 
+    katz_deli.shift
+  
+  puts "There is nobody waiting to be served!"
+  
   
   
   
