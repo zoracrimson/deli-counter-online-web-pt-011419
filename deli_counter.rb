@@ -13,8 +13,7 @@ def line(katz_deli)
 end 
 
 def take_a_number(katz_deli, name)
-  katz_deli.each_with_index do | name, index |
-    puts "Welcome #{name}, you're number #{index+1} in line."
-  end 
+  katz_deli << "name"
+  
   
   
